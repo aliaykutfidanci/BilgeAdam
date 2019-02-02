@@ -44,7 +44,11 @@ public class AritmetikApp {
         sonuc=a%b;
         System.out.println("kalan islemi (Mod alma): "+sonuc);
 
+        a=a+b; //ya da a+=b;
+        System.out.println("iki sayiyi toplayip atama islemi: "+a);
 
+        a+=b;
+        System.out.println("iki sayiyi toplayip atama islemi: "+a);
 
     }
 }
