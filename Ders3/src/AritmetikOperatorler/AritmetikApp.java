@@ -7,5 +7,9 @@ public class AritmetikApp {
         //ctrl+shift+k push kisayolu
         //sag alt koseden yeni branch acilabilir
         //istenilen branhce check out ile gecis yapilabilir
+        //ctrl+shift+k push kisayolu
+        //sag alt koseden yeni branch acilabilir
+        System.out.println("Merhaba ilk branch");
+
     }
 }
