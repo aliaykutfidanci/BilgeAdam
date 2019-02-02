@@ -31,5 +31,7 @@ public class AritmetikArttirimApp {
         System.out.println("sonuc2: "+sonuc2);
         System.out.println("Arttirimdan sonra y'nin degeri: "+y);
 
+
+
     }
 }
