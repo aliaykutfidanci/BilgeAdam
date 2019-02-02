@@ -36,6 +36,10 @@ public class Main {
         String xString;
         xString=xInt.toString();
         System.out.println(xString);
+
+        /*
+        git guncellemek icin once add sonra commit sonra pull ve push
+         */
     }
 
 }
