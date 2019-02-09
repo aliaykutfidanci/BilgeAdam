@@ -1,5 +1,7 @@
 package Methodlar;
 
+import java.util.zip.DeflaterOutputStream;
+
 public class OrneklerApp {
 
     public static void main(String[] args) {
@@ -12,6 +14,9 @@ public class OrneklerApp {
 
         int gelenDeger=donusTipiOlanToplamaIslemi(7,2);
         System.out.println("donus tipi olan islem: "+gelenDeger);
+
+        int result= donusTipiOlanToplamaIslemi(3,6) + 1 ;
+        System.out.println("sonuc: "+result);
 
     }
 
