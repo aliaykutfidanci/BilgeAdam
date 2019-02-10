@@ -37,7 +37,7 @@ public class OrneklerApp {
         int sonuc = sayi1 + sayi2;
         System.out.println("Toplama işlemi sonucu: " + sonuc);
     }
-
+    //donus tipi olan parametre alan method
     public static int donusTipiOlanToplamaIslemi(int sayi1,int sayi2){
         int sonuc = sayi1+ sayi2;
         return sonuc;
