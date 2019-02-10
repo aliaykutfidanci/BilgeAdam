@@ -1,5 +1,7 @@
 package Diziler;
 
+import java.util.Arrays;
+
 public class DizilerForEachApp {
     public static void main(String[] args) {
         /*int[] dizi={1,2,3,4,5,6,7};
@@ -33,7 +35,8 @@ public class DizilerForEachApp {
             System.out.print(s+" ");
         }*/
 
-        double[] dizi={1.0,2.4,3.14,5.0};
+        double[] dizi={10.0,2.4,3.14,5.0};
+        Arrays.sort(dizi); //sıralama methodu
         for (double d:dizi){
             System.out.println(d);
         }
