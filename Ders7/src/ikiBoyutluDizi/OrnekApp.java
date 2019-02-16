@@ -54,7 +54,7 @@ public class OrnekApp {
             solCapraz += dizi[i][i];
 
         }
-        
+
         sonuc = sagCapraz - solCapraz;
 
         System.out.println("Sonuc: " + Math.abs(sonuc));
