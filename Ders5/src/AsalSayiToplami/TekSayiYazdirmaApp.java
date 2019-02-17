@@ -8,7 +8,7 @@ public class TekSayiYazdirmaApp {
 
         for (i=1; i<=100; i++){
 
-            if (i%2==1){
+            if (i%2==1){ //(i%2!==0) ya da (!(i%2==0))
 
                 TekSayilar+=i+" "; //concat işlemi birleştirme işlemi
 
